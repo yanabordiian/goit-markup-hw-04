@@ -223,7 +223,7 @@
         color: #212121;
     margin-bottom: 50px;}
     .logo-companies {display:flex;gap:30px;}
-    .client-logo { display: inline; align-items: center;padding-top: 16px; padding-bottom: 16px;}
+    .client-logo { display: inline; align-items: center;}
 
     .images {display: block; max-width: 100%; height:auto;}
     .footer {background:#2F303A;}
