@@ -69,7 +69,7 @@
     .click {display: flex;align-items: center;}
     .list {color: black;}
     .contact {color: #757575;}
-   .mail {object-fit:cover;padding-right: 10px;}
+   
    .call {padding-right: 10px;}
     .link {text-decoration: none;list-style:none; margin-right: 50px; padding-top: 32px;
         padding-bottom: 32px;}
@@ -100,6 +100,7 @@
 
     .hero-section {
         max-width: 1600px;
+        margin: 0 auto;
         height: 600px;
         background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/office.jpg);
         background-position: center;
@@ -209,8 +210,9 @@
     letter-spacing: 0.03em;
     color: #757575;margin-top: 10px;margin-bottom:33px; background-color: #FFFFFF;
     box-shadow: rgba(0, 0, 0, 0.2);}
-    .social-link-items {border-radius: 50%;}
-    .socmed {display: inline-block; justify-content: center; max-width:44px; max-height:44px; }
+    .social-links {display: flex; margin-left: 32px; margin-right: 32px;justify-content: space-around;}
+   
+    .socmed {display: inline-block; justify-content: space-around; align-items: center; max-width:44px; max-height:44px;}
     .socmed:not(:last-child) {padding-right: 10px;}
     .logo-borders {border: 1px solid #AFB1B8;
         border-radius: 4px;max-width: 170px; max-height: 92px;}
@@ -226,7 +228,7 @@
     .client-logo { display: inline; align-items: center;}
 
     .images {display: block; max-width: 100%; height:auto;}
-    .footer {background:#2F303A;}
+    .footer {background:#2F303A;padding-top: 60px; padding-bottom: 60px;}
     
     .logo-fw {color: #2196F3;}
     .logo-footer {
