@@ -69,8 +69,8 @@
     .click {display: flex;align-items: center;}
     .list {color: black;}
     .contact {color: #757575;}
-   
-   .call {padding-right: 10px;}
+   .mail {margin-right: 10px; fill:#757575;}
+   .mail:hover, .mail:focus {fill:#2196F3;}
     .link {text-decoration: none;list-style:none; margin-right: 50px; padding-top: 32px;
         padding-bottom: 32px;}
     .link:hover, .link:focus{color:  #2196F3}
@@ -210,11 +210,11 @@
     letter-spacing: 0.03em;
     color: #757575;margin-top: 10px;margin-bottom:33px; background-color: #FFFFFF;
     box-shadow: rgba(0, 0, 0, 0.2);}
-    .social-links {display: flex; gap:10px;padding-left: 32px; padding-right: 32px;justify-content: space-between; align-items: center;}
-    .socmed { max-width:44px; max-height:44px;}
+    .social-links {display: flex; gap:10px;padding-left: 32px; padding-right: 32px; align-items: center;}
+    .socmed { width:44px; height:44px;
+        border-radius: 50%; background: rgba(255, 255, 255, 0.1);}
     .socmed:hover, .socmed:focus {color:#2196F3;}
-    .logo-borders {border: 1px solid #AFB1B8;
-        border-radius: 4px;max-width: 170px; max-height: 92px;}
+    .logo-borders {;max-width: 170px; max-height: 92px;}
     
     .clients-title {font-weight: 700;
         font-size: 36px;
@@ -228,7 +228,7 @@
 
     .images {display: block; max-width: 100%; height:auto;}
     .footer {background:#2F303A;padding-top: 60px; padding-bottom: 60px;}
-    
+    .weare {display:block;}
     .logo-fw {color: #2196F3;}
     .logo-footer {
         display: block;
@@ -238,6 +238,7 @@
         font-size: 26px;
         line-height: 1.19;
         color: #FFFFFF;margin-bottom: 20px;}
+        .part {display:flex;  }
     .address {
   
     font-family: 'Roboto';
@@ -378,5 +379,6 @@ padding-right: 0px;}
     color: #FFFFFF;
 display:flex;
 margin-bottom: 20px; }
-    .footer-column {display:inline-block;
-    align-content: ;}
+    .footer-column {display:inline-block;}
+.shadow:hover, .shadow:focus { border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);}
