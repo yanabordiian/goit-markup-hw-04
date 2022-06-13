@@ -193,7 +193,7 @@
         text-align: center;
         letter-spacing: 0.03em;
         color: #212121;
-    margin-bottom: 50px;}
+        margin-bottom: 50px;}
     .team-photo {display:flex;}
     .team-name {
         font-weight: 500;
@@ -210,10 +210,9 @@
     letter-spacing: 0.03em;
     color: #757575;margin-top: 10px;margin-bottom:33px; background-color: #FFFFFF;
     box-shadow: rgba(0, 0, 0, 0.2);}
-    .social-links {display: flex; margin-left: 32px; margin-right: 32px;justify-content: space-around;}
-   
-    .socmed {display: inline-block; justify-content: space-around; align-items: center; max-width:44px; max-height:44px;}
-    .socmed:not(:last-child) {padding-right: 10px;}
+    .social-links {display: flex; gap:10px;padding-left: 32px; padding-right: 32px;justify-content: space-between; align-items: center;}
+    .socmed { max-width:44px; max-height:44px;}
+    .socmed:hover, .socmed:focus {color:#2196F3;}
     .logo-borders {border: 1px solid #AFB1B8;
         border-radius: 4px;max-width: 170px; max-height: 92px;}
     
