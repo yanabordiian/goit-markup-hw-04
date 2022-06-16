@@ -69,11 +69,11 @@
     .click {display: flex;align-items: center;}
     .list {color: black;}
     .contact {color: #757575;}
-   .mail {margin-right: 10px; fill:#757575;}
+   .mail {margin-right: 10px; fill:currentColor;}
    .mail:hover, .mail:focus {fill:#2196F3;}
     .link {text-decoration: none;list-style:none; margin-right: 50px; padding-top: 32px;
         padding-bottom: 32px;}
-    .link:hover, .link:focus{color:  #2196F3;}
+    .link:hover, .link:focus{color:#2196F3;}
     .communication {
         text-decoration:none; list-style:none;
         font-weight: 500;
@@ -215,25 +215,27 @@
 align-items: center;background-position: 50% 50%;}
 
 .icons {width:44px; height:44px;border-radius: 50%;}
-.social {width:100%; height:100%;}
-.socmed {display: flex;  margin-right: 10px; justify-content: center; align-items: center;  fill:#AFB1B8; }
-
-.list:hover, .list:focus {background-color:#2196F3; fill:#FFFFFF;}
-
-.logo-borders {width: 170px; max-height: 92px; border: 1px solid #AFB1B8;
-        border-radius: 4px;}
-    
-    .clients-title {font-weight: 700;
+.social {width:100%; height:100%; color:#AFB1B8;}
+.social:hover, .social:focus {background-color:#2196F3; fill:#FFFFFF;}
+.socmed {display: flex;  margin-right: 10px; justify-content: center; align-items: center;  fill:currentColor; }
+  
+.clients-title {font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
         text-align: center;
         letter-spacing: 0.03em;
         color: #212121;
         margin-bottom: 50px;}
-    .logo-companies {display:flex;gap:30px;}
-    .client-logo {  display: block;
+.logo-companies {display:flex;gap:30px;}
+.client-logo {  display: block;
         margin: 0 auto;
-        text-align: center;  }
+        text-align: center;  
+    fill:currentColor;border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    width: 170px; height: 92px; padding:16px 32px;
+fill:#AFB1B8;}
+.client-logo:hover, .client-logo:focus {fill:#2196F3; ;}
+
 
     .images {display: block; max-width: 100%; height:auto;}
     .footer {background:#2F303A;padding-top: 60px; padding-bottom: 60px;}
@@ -258,9 +260,6 @@ align-items: center;background-position: 50% 50%;}
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;}
-
-
-
     
     .footer-address {list-style: none;}
   
@@ -296,9 +295,8 @@ margin-bottom: 4px;}
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;}
-    
+    .knopka {}
     button {
-       
         border:0;
         appearance: auto;
         writing-mode: horizontal-tb;
@@ -316,7 +314,6 @@ margin-bottom: 4px;}
         cursor: pointer;
         box-sizing: border-box;
         background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
-        margin: 0em;
         border-style: outset;
         border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
         border-image: initial;
@@ -330,7 +327,7 @@ margin-bottom: 4px;}
     color: #212121; display: flex; justify-content: center; align-items: center;
 padding-right: 0px;}
     
-    .all-button {list-style: none;display: flex; justify-content: center; margin-bottom: 50px;}
+    .all-button {list-style: none;display: flex; justify-content: center; padding-bottom: 50px;}
     .button1 {
         border:0;
         font-weight: 500;
@@ -374,7 +371,7 @@ padding-right: 0px;}
  .shadow {display:block;}
  .shadow:hover, .shadow:focus {
     border: 1px solid #EEEEEE;
-       box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);} 
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);} 
 .portfolio-list {display:flex; flex-wrap:wrap; gap:30px;}
 .portfolio-list:nth-child(3n + 1) {padding-right: 0px;}
 .more {padding-left: 24px;padding-right:24px; padding-top: 20px; padding-bottom: 20px;
