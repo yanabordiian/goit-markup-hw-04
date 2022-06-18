@@ -216,10 +216,10 @@ align-items: center;background-position: 50% 50%;}
 
 .icons {width:44px; height:44px;}
 
-.social {width:100%; height:100%; display: flex;border-radius: 50%; align-items: center; justify-content: center;background-color:rgba(255, 255, 255, 0.1);}
-.social:hover, .social:focus {background-color:#2196F3;fill:#FFFFFF;}
-.socmed:hover, .socmed:focus {fill:#FFFFFF;}
-.socmed {display: flex; margin:auto; justify-content: center; align-items: center;  fill:#AFB1B8; }
+.social {width:100%; height:100%; display: flex;border-radius: 50%; align-items: center; justify-content: center;color: #AFB1B8; background-color:rgba(255, 255, 255, 0.1);}
+.social:hover, .social:focus {background-color:#2196F3;color:#FFFFFF;}
+
+.socmed {display: flex; margin:auto; justify-content: center; align-items: center;  fill:currentColor; }
 
 .clients-title {font-weight: 700;
         font-size: 36px;
